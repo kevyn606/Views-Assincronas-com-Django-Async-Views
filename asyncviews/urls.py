@@ -20,6 +20,6 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', views.async_view.as_asgi()),  # Use as_asgi para views assíncronas
+    path('api/', views.async_view),  # Use as_asgi para views assíncronas
 ]
 
